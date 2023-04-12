@@ -1,3 +1,167 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+
+.header-hero,
+.header,
+.footer {
+    flex: 0 0 50px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.container {
+    flex: 1 0 300px;
+    display: flex;
+    padding: 0 10vw;
+}
+
+.header-hero {
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 400px;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.hero .main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    flex: 1;
+}
+
+.main .secondary {
+    font-size: 18px;
+    font-weight: 100;
+    color: #e5e7eb;
+}
+
+.info-head {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.info {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px; 
+    padding-bottom: 60px;
+    gap: 30px;
+}
+
+.image-set {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.image {
+    text-align: center;
+}
+
+.quote {
+    flex-direction: column;
+    padding: 0 15vw;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-source {
+    align-self: flex-end;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.signup {
+    align-items: center;
+    justify-content: center;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    color: #f9faf8;
+    padding: 30px 60px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.action div {
+    flex: 1 1 50vw;
+}
+
+.action button {
+    flex: 1 0 auto;
+    border: 1px solid #f9faf8;
+}
+
+/*define elements below*/
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    max-height: 25px;
+    max-width: 100px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    margin:0;
+    padding:0;
+    overflow: auto;
 }
